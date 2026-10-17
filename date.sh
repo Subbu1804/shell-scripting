@@ -2,7 +2,7 @@
 
 START_TIME=$(date +%s)
 echo "script started execution at:$START_TIME"
-sleep 10
+sleep 10s
 
 END_TIME=$(date +%s)
 echo "script completed execution at:$END_TIME"
