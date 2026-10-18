@@ -1,6 +1,9 @@
 #!/bin/bash
-person1=$1 #no spaces around variables
+
+person1=$1
 person2=$2
 
-echo "$person1::Hi, $person2.how are you?"
-echo "$person2::Hello,$person1.I am good, how about you?"
+
+echo "person1::Hi person2, how are you?"
+echo "Person2::Hi Person1, I am fine, How about you?"
+echo "person1::I am good person2, thanks for asking" 
