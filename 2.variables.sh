@@ -4,6 +4,6 @@ person1=$1
 person2=$2
 
 
-echo "person1::Hi person2, how are you?"
-echo "Person2::Hi Person1, I am fine, How about you?"
-echo "person1::I am good person2, thanks for asking" 
+echo "$person1::Hi $person2, how are you?"
+echo "$Person2::Hi $Person1, I am fine, How about you?"
+echo "$person1::I am good $person2, thanks for asking" 
