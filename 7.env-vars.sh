@@ -1,3 +1,3 @@
 #!/bin/bash
 
-export COURSE
+echo "$COURSE"
