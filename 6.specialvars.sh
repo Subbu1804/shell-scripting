@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "total arguments passed: $@"
+echo "total arguments pass as a whole word: $*"
 echo "total number of arguments passed: $#"
 echo "user running the script: $USER"
 echo "the current directory: $PWD"
