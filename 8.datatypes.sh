@@ -10,4 +10,4 @@ count=count+1
 echo "Count is:$count"
 
 FRUITS=("Banana" "Pappaya" "Guaua")
-echo "all fruits: $FRUITS[$@]"
+echo "all fruits: $FRUITS[@]"
