@@ -9,5 +9,5 @@ declare -i count=5
 count=count+1
 echo "Count is:$count"
 
-fruits=("Banana" "Pappaya" "Guaua")
-echo "all fruits: $fruits[$@]"
+FRUITS=("Banana" "Pappaya" "Guaua")
+echo "all fruits: $FRUITS[$@]"
