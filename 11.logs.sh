@@ -11,6 +11,8 @@ fi
 
 mkdir -p $logs_folder
 
+echo "script started execution at $(data +"%F %T)
+
 validate(){
     if [ $1 -ne 0 ]; then
         echo "$2...FAILED" | tee -a $log_file.log
@@ -29,3 +31,5 @@ echo "proceeding...."
 
 dnf install mysql -y
 validate $? "mysql installation" &>>$logfile.log
+
+echo "script completed execution at $(data +"%F %T)
